@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivCentral - Home</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar"></nav>  <!-- Navbar will be loaded here -->
+    </header>
+
+    <main>
+        <section class="search-bar">
+            <input type="text" id="search" placeholder="Search for products...">
+        </section>
+
+        <section class="categories">
+            <h3>Shop by Categories</h3>
+            <div class="category-list">
+                <button onclick="filterCategory('Fruits')">Fruits</button>
+                <button onclick="filterCategory('Dairy')">Dairy</button>
+                <button onclick="filterCategory('Vegetables')">Vegetables</button>
+            </div>
+        </section>
+
+        <section class="product-list">
+            <h3>Featured Products</h3>
+            <div id="productsContainer"></div>
+        </section>
+    </main>
+
+    <script src="../js/app/home.js"></script>
+</body>
+</html>

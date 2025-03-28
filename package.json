@@ -1,0 +1,33 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "tailwindcss": "^4.0.17"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShivCentral/Shivcentral.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/ShivCentral/Shivcentral/issues"
+    },
+    "homepage": "https://github.com/ShivCentral/Shivcentral#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "firebase": "^11.5.0",
+        "firebase-admin": "^13.2.0",
+        "mongoose": "^8.13.0"
+    }
+}

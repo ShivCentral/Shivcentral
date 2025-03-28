@@ -1,0 +1,11 @@
+<h2>Checkout</h2>
+<div id="cartItems"></div>
+<button onclick="placeOrder()">Place Order</button>
+
+<script>
+    function placeOrder() {
+        localStorage.setItem('orderPlaced', 'true');
+        alert("Order Placed Successfully!");
+        window.location.href = 'orderTracking.html';
+    }
+</script>

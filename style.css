@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Blinkit-like Green Theme */
+body {
+    background-color: #f7f7f7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #008000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Product Grid */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: #006400;
+}
+
+/* Sticky Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
